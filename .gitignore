@@ -1,0 +1,29 @@
+# Ambiente virtual (recriado por ./setup_ambiente.sh)
+.venv/
+venv/
+
+# Saídas do colcon (recriadas por python3 -m colcon build)
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Sistema
+.DS_Store
